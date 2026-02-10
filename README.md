@@ -53,3 +53,19 @@ PORT=3000
 📁 src/config/database.js
 
 📁 src/server.js
+
+configuramos package.json ``"start": "node src/server.js",```
+ejecutamos el servidor con ``npm start``
+ajustamos a app.js
+
+``
+/* const PORT=3000;
+app.listen(PORT,()=>{
+    console.log("Servidor Activo")
+});
+ */
+module.exports = app;
+``
+📁 src/models/usuario.models.js
+📁 src/services/usuario.service.js
+📁 src/controllers/usuarios.controller.js
